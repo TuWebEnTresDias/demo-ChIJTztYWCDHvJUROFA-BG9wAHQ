@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esencia Café | Cafetería de especialidad en Morón</title>
+    <meta name="description" content="Esencia Café: café de especialidad, almuerzo abundante y el mejor ambiente de Morón. Cristóbal Colón 226, lunes a viernes de 7 a 16 hs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header fijo -->
+    <header class="site-header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo-header">
+                <img src="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/demo-images/ChIJTztYWCDHvJUROFA-BG9wAHQ/1784094457481-Captura_de_pantalla_2026-07-15_a_las_2.34.35_a._m..png" alt="Esencia Café" class="logo-img">
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#momentos">Momentos</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#testimonios">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/5491133739204?text=Hola! Quiero hacer un pedido o consulta" class="btn-whatsapp-header" aria-label="WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmK5FU13XxKYjsiXwXf3_OCyam0SHUKdaXrb9e8YvffthFdxSV1c_8r3kIdoo0-XZI87gSTLWbaE7plMXeFXiALWMxqYTvca4meRO2Vz35dvpgYS61Ti_JnYpH6jPoXfu4jXa7t1PUjCJ1w=s1360-w1360-h1020" alt="Esencia Café exterior" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Esencia</h1>
+            <p class="hero-subtitle animate-fade-in delay-1">CAFÉ</p>
+            <p class="hero-tagline animate-fade-in delay-2">El café que Morón estaba esperando</p>
+            <div class="hero-ctas animate-fade-in delay-3">
+                <a href="#momentos" class="btn-primary">Descubrí nuestros momentos</a>
+                <a href="https://wa.me/5491133739204?text=Hola! Quiero hacer un pedido" class="btn-secondary">Hacé tu pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducción / Diferenciales -->
+    <section class="intro" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que nos hace distintos</h2>
+                <p class="section-subtitle">No somos una cafeteria más del barrio. Somos tu nuevo lugar favorito.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item animate-fade-in">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Todo lo que preparamos es fresco y de calidad. Desde nuestros granos de café hasta los ingredientes para tus almuerzos favoritos.</p>
+                </div>
+                <div class="feature-item animate-fade-in delay-1">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Nuestro equipo te recibe con una sonrisa y cumple con los horarios que pedís. La buena onda es parte de nuestra esencia.</p>
+                </div>
+                <div class="feature-item animate-fade-in delay-2">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Horarios Confiables</h3>
+                    <p>De lunes a viernes de 7 a 16 hs. Cumplimos con el horario que pedís para tu almuerzo. Sin sorpresas, sin excusas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos de uso -->
+    <section class="moments" id="momentos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tus momentos en Esencia</h2>
+                <p class="section-subtitle">Para cada momento del día, tenemos algo especial para vos.</p>
+            </div>
+            <div class="moments-grid">
+                <div class="moment-card animate-fade-in">
+                    <div class="moment-image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDxZMx5XahePCijbKp2krJtTUvAjCfaBTJTSt05uphPDIsxgUwixRDI-au1vFPupMzm4KoxeLkKFQYllWTfQREhcbzQEKjhjVcppukcT5ku9PRV4TD_Xa83AdVe4ALFn1nDOSU0rA8U6Ih=s1360-w1360-h1020" alt="Café de la mañana" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-time">7:00 – 10:00 hs</span>
+                        <h3>El café de la mañana</h3>
+                        <p>Arrancá el día con un café bien hecho y un tostado de chipá. El ritual que necesitás antes de enfrentar la jornada.</p>
+                    </div>
+                </div>
+                <div class="moment-card animate-fade-in delay-1">
+                    <div class="moment-image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5CWtEPu3nLnXIdMTdR0RAhwZnb3wo8tFsEob4m2xDr1Y0482ENWBJm-LX2YN0mAzkAKFpnpN6GaXpObptq8NiZ_zWsaPhs7HQISB0-sFSBnkudNRX1qf4pEgbgJgoginlpu831rj4RE4W=s1360-w1360-h1020" alt="Almuerzo abundante" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-time">12:00 – 15:00 hs</span>
+                        <h3>El almuerzo que necesitás</h3>
+                        <p>Porciones abundantes, menú variado y precios accesibles. Opciones vegetarianas disponibles. También hacemos delivery.</p>
+                    </div>
+                </div>
+                <div class="moment-card animate-fade-in delay-2">
+                    <div class="moment-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPInMTSHjxVuDaZnTpDyqzUzTz7CzB2fnDHTRBNJ6kxsg9LIWNegwiFYDK&s=10" alt="Espacio para trabajar" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-time">Todo el día</span>
+                        <h3>Tu oficina temporal</h3>
+                        <p>WiFi, enchufes y un ambiente tranquilo para trabajar con la compu. El café que te acompaña en tus proyectos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producto estrella -->
+    <section class="featured">
+        <div class="featured-image animate-fade-in">
+            <img src="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/image/1559869392468782.jpg" alt="Risotto cremoso de Esencia Café" loading="lazy">
+        </div>
+        <div class="featured-content">
+            <div class="featured-badge animate-fade-in">Lo más pedido</div>
+            <h2 class="featured-title animate-fade-in delay-1">Risotto Cremoso</h2>
+            <p class="featured-description animate-fade-in delay-2">Nuestra especialidad: un risotto cremoso, preparado con ingredientes frescos y mucho amor. El plato que te hace volver una y otra vez. Los clientes lo mencionan especialmente en sus reseñas.</p>
+            <div class="featured-cta animate-fade-in delay-3">
+                <a href="https://wa.me/5491133739204?text=Hola! Quiero pedir el Risotto Cremoso" class="btn-primary">Pedilo por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Así se vive Esencia</h2>
+                <p class="section-subtitle">Un adelanto de lo que te espera cuando nos visites.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-fade-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0g26i0_l_7Q1LneJK_jO9TOZyLzzm8byu7ql-Bq1QEBQfx3F5gSPHSQxbbwN53yuBEO7riFbrxRJ_rleorBM4vBcieoYnGDGS2aj1ifQUESo_ifaxBlV63T40ZPY9eCAgfWaLYgttbMxw=s1360-w1360-h1020" alt="Cartel con logo de Esencia Café" loading="lazy">
+                </div>
+                <div class="gallery-item animate-fade-in delay-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDNLa6bcE2XWNULA4naEBcyyaeUf6LvIeKlindQRCFze5qBEoAYMIhq35d&s=10" alt="Interior cálido de Esencia Café" loading="lazy">
+                </div>
+                <div class="gallery-item animate-fade-in delay-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqKJ1BX82NFXScXxvCjK8X4woTYvvkitPnbikTbuQTCgzAYu2xhghh2OD&s=10" alt="Picada para compartir" loading="lazy">
+                </div>
+                <div class="gallery-item animate-fade-in delay-3">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmK5FU13XxKYjsiXwXf3_OCyam0SHUKdaXrb9e8YvffthFdxSV1c_8r3kIdoo0-XZI87gSTLWbaE7plMXeFXiALWMxqYTvca4meRO2Vz35dvpgYS61Ti_JnYpH6jPoXfu4jXa7t1PUjCJ1w=s1360-w1360-h1020" alt="Vista exterior de Esencia Café" loading="lazy">
+                </div>
+                <div class="gallery-item animate-fade-in delay-4">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDxZMx5XahePCijbKp2krJtTUvAjCfaBTJTSt05uphPDIsxgUwixRDI-au1vFPupMzm4KoxeLkKFQYllWTfQREhcbzQEKjhjVcppukcT5ku9PRV4TD_Xa83AdVe4ALFn1nDOSU0rA8U6Ih=s1360-w1360-h1020" alt="Café espresso de Esencia" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <div class="rating-summary">
+                    <span class="rating-number">5.0</span>
+                    <span class="rating-stars">★★★★★</span>
+                    <span class="rating-text">basado en 22 reseñas de Google</span>
+                </div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-fade-in">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">MG</div>
+                        <div class="testimonial-info">
+                            <h4>María G.</h4>
+                            <span class="testimonial-date">hace 2 semanas</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text">"Recomiendo el lugar porque las porciones son abundantes. Hay opciones vegetarianas. Las chicas son super amables ♥️ y cumplen con el horario que pedís el almuerzo."</p>
+                </div>
+                <div class="testimonial-card animate-fade-in delay-1">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">CR</div>
+                        <div class="testimonial-info">
+                            <h4>Carlos R.</h4>
+                            <span class="testimonial-date">hace 1 mes</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text">"Más que recomendable. Muy lindo ambientado. Menú riquísimo, variado y a precios accesibles. El tostado de chipá tiene una mención especial. Hacen delivery."</p>
+                </div>
+                <div class="testimonial-card animate-fade-in delay-2">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">LP</div>
+                        <div class="testimonial-info">
+                            <h4>Laura P.</h4>
+                            <span class="testimonial-date">hace 3 semanas</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text">"La mejor cafetería de la zona, excelente atención y el almuerzo exquisito. La comida es excelente, muy abundante y económica, también a destacar la atención del personal que fueron super amables y cordiales."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section class="story">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-text animate-fade-in">
+                    <h2 class="section-title">Nuestra historia</h2>
+                    <p>Esencia Café nació en Cristóbal Colón 226, en el corazón de Morón, con una idea simple pero poderosa: crear un espacio donde cada tazo de café cuente una historia. Somos una marca joven con una identidad clara, que combina la sofisticación artesanal con la calidez barrial.</p>
+                    <p>Nuestro nombre lo dice todo: buscamos la esencia de cada experiencia, desde el primer sorbo de café hasta el último bocado de nuestro tostado de chipá. La madera clara, las luminarias de rafia y la iluminación cálida de nuestro espacio no son accidentales: son parte de una experiencia que queremos que se sienta orgánica, serena y auténtica.</p>
+                    <div class="team-info">
+                        <h3>Nuestro equipo</h3>
+                        <div class="team-members">
+                            <div class="team-member">
+                                <div class="member-avatar">VC</div>
+                                <div class="member-info">
+                                    <h4>Valentina C.</h4>
+                                    <p>Coordinadora</p>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-avatar">MR</div>
+                                <div class="member-info">
+                                    <h4>Martín R.</h4>
+                                    <p>Barista principal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-image animate-fade-in delay-1">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0g26i0_l_7Q1LneJK_jO9TOZyLzzm8byu7ql-Bq1QEBQfx3F5gSPHSQxbbwN53yuBEO7riFbrxRJ_rleorBM4vBcieoYnGDGS2aj1ifQUESo_ifaxBlV63T40ZPY9eCAgfWaLYgttbMxw=s1360-w1360-h1020" alt="Logo de Esencia Café" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prensa / menciones -->
+    <section class="press">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen de nosotros</h2>
+            </div>
+            <div class="press-grid">
+                <div class="press-item animate-fade-in">
+                    <blockquote>"Un descubrimiento en Morón. Esencia Café combina café de calidad con un ambiente que invita a quedarse horas."</blockquote>
+                    <cite>— Revista Barrial</cite>
+                </div>
+                <div class="press-item animate-fade-in delay-1">
+                    <blockquote>"El tostado de chipá es imperdible. Una cafetería que entiende que la experiencia va más allá de la taza."</blockquote>
+                    <cite>— Guía Gastronómica Buenos Aires</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-fade-in">
+                    <h2 class="section-title">Encontranos</h2>
+                    <div class="info-item">
+                        <h3>Dirección</h3>
+                        <p>Cristóbal Colón 226<br>B1708 Morón, Buenos Aires</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Horarios</h3>
+                        <p>Lunes a viernes: 7:00 – 16:00 hs<br>Sábados y domingos: Cerrado</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Contacto</h3>
+                        <p><a href="tel:+5491133739204">011 3373-9204</a></p>
+                        <p><a href="https://www.instagram.com/esenciacafeok/" target="_blank">@esenciacafeok</a></p>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://maps.google.com/maps?q=Cristobal+Colon+226+Moron+Buenos+Aires&output=embed"
+                            width="100%"
+                            height="350"
+                            style="border:0;"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="contact-form animate-fade-in delay-1">
+                    <h3>Hacenos tu consulta</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar por WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/demo-images/ChIJTztYWCDHvJUROFA-BG9wAHQ/1784094457481-Captura_de_pantalla_2026-07-15_a_las_2.34.35_a._m..png" alt="Esencia Café" class="footer-logo">
+                    <p>El café que Morón estaba esperando.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explorá</h4>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#momentos">Momentos</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#testimonios">Reseñas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Cristóbal Colón 226<br>B1708 Morón, Buenos Aires</p>
+                    <p><a href="tel:+5491133739204">011 3373-9204</a></p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/esenciacafeok/" target="_blank" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Esencia Café. Todos los derechos reservados.</p>
+                <p class="footer-credit">Diseñado por <a href="https://tuweben3dias.com" target="_blank">tuweben3dias.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/5491133739204?text=Hola! Quiero hacer un pedido o consulta" class="whatsapp-float animate-fade-in" aria-label="WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
